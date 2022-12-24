@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 125px;
     padding-left: 200px;
     padding-right: 200px;
     max-height: 250px;
@@ -59,7 +59,7 @@ body {
     color: #F9FAF8;
     background: #1F2937;
     font-size: 48px;  
-    font-weight: bolder;
+    font-weight: 900;
     max-width: 350px;
 }
 
@@ -68,8 +68,8 @@ body {
     color: #E5E7EB;
     background: #1F2937;
     max-width: 450px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 5px;
     display: flex;
     text-align: left;
 }
@@ -90,4 +90,107 @@ button   {
     color: #F9FAF8;
     padding: 115px;
     text-align: center;
+}
+
+.information  {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  padding: 40px;
+}
+
+.container2 {
+  font-size: 18px;
+  color: #1F2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px;
+  padding-bottom: 125px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.subtext  {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 178px;
+}
+
+.illustration {
+  border: solid 4.5px #3882f6;
+  border-radius: 12px;
+  background: none;
+  padding: 80px 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inspiration  {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+  padding: 100px 310px;
+}
+
+.quote  {
+  font-weight: lighter;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.attribute  {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal {
+  background: #3882f6;
+  color: #E5E7EB;
+  padding: 250px 1000px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 100px;
+  width: 1000px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 3px;
+  padding: 16px;
+}
+
+.call {
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.product  {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.signup {
+  background-color: #3882f6;
+  border: solid 2px #E5E7EB;
+}
+
+.footer{
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
